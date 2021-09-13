@@ -1,3 +1,5 @@
+## This file is made by Professor Hyungsoo Jung.
+
 # create table
 CREATE TABLE City (
   name varchar(32),
