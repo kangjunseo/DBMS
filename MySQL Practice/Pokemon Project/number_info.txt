@@ -1,0 +1,40 @@
+01. Print the names of trainers that have caught 3 or more Pokémon in the order of the number of Pokémon caught.
+02. Print the nicknames of the Pokémon that are level 50 or higher among the Pokémon you caught, in alphabetical order.
+03. Print the name of the trainer, not the gym leader, in alphabetical order.
+04. Print the names of trainers from Blue city in alphabetical order.
+05. Print the average level of Pokémon Red caught.
+06. Print the name of the gym leader and the average of the Pokémon level caught by each leader in alphabetical order of the leader's name.
+07. For each city of origin, print the nickname of the Pokémon with the highest level among the Pokémon caught by trainers in the same city of origin in alphabetical order.
+08. Print the number of Pokémon caught by each type in alphabetical order by type name.
+09. Print the name of the trainer who caught 4 or more Pokémon and the nickname of the Pokémon with the highest level among the Pokémon caught by that trainer in alphabetical order of the Pokémon nicknames. 
+10. Print the names of Pokémon that have not been caught by any trainer in alphabetical order.
+11. Among the Pokémon caught by the gym leader of Sangnok City, print the nicknames of the Pokémon whose type is water in alphabetical order.
+12. Print the pre-evolution names of the Pokémon whose ids decrease as they evolve in alphabetical order.
+13. Print the number of Pokémon whose type is not fire.
+14. Print the names of the cities with the most native trainers.
+15. Print out the names of all trainers from Sangnok city who caught a Pokémon whose name starts with P in al phabetical order.
+16. Print the name of the city's gym leader with Amazon characteristics.
+17. Print the average level of all water-type Pokémon caught by the trainer.
+18. Print the names of Grass-type Pokémon in alphabetical order.
+19. Print the total level of Pokémon caught by Trainer Matis.
+20. Print the names of the gym leaders in alphabetical order.
+21. Print the names of the trainers who caught two or more of the same Pokémon in alphabetical order.
+22. Print the IDs and names of all Pokémon in the Pokémon Encyclopedia in ascending order of ID.
+23. Print the names of Pokémon whose names start with an alphabetic vowel in alphabetical order.
+24. Print the names of Pokémon whose names start with an alphabetic vowel in alphabetical order.
+25. Print the names of the evolutionary stage 2 Pokémon in alphabetical order. (ex. In the case of Squirtle- Buggy-Turtle King, Buggy ,which is the Pokémon with stage 2 evolution, must be printed out, and Pokémon whose stage 2 evolution is the final evolution form also must also be printed.)
+26. Print the name of the trainer with the highest total of the Pokémon levels caught and the total number of levels.
+27. Among the catched Pokémon, print the nicknames of the Pokémon with a level 40 or higher and an owner_id of 5 or higher in alphabetical order.
+28. Print the names of trainers from Brown city or Rainbow city in alphabetical order.
+29. Print the names of all Pokémon in alphabetical order.
+30. Print the names of Pokémon whose names end in ‘s’ in alphabetical order. (case sensitive x)
+31. Print the names of Pokémon caught in common by trainers from Sangnok city and trainers from Blue city in alphabetical order.
+32. Print the name of the trainer who caught only one type of Pokémon, the name of the Pokémon, and the number of times caught, in alphabetical order of the trainer name.
+33. Print the names of the trainers who caught Psychic-type Pokémon in alphabetical order.
+34. Print the Pokémon's name after the Pokémon with the name Charmander has evolved twice.
+35. Print the trainer's name and the number of Pokémon caught by that trainer in alphabetical order by the trainer's name.
+36. Print out the Pokemon whose type is water, which cannot be evolved any more, in alphabetical order. (In the case of a Pokémon that has undergone previous evolution, if it cannot evolve in the future, it is judged as a Pokémon that cannot evolve anymore. ex. In the case of Squirtle-Buggy-Turtle King, Turtle King is a Pokémon that can no longer evolve.)
+37. Print the total level of Pokémon of type fire among the catched Pokémon.
+38. Print the name of the gym leader in Brown city.
+39. Print the names of Pokémon caught by the gym leader in Rainbow City in alphabetical order.
+40. Print the names of the trainers who caught Pikachu in alphabetical order.
