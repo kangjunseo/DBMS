@@ -1,5 +1,6 @@
 #include <stdint.h>
 #define PAGE_SIZE 4096
+#define FILE_SIZE 10*1024*1024
 typedef uint64_t pagenum_t;
 struct page_t {
     // in-memory page structure
@@ -13,6 +14,10 @@ struct header_page_t {
     pagenum_t pages;
     char reserved[PAGE_SIZE-sizeof(first_page_num)-sizeof(pages)];
 };
+
+header_page_t * header; //global variance of header
+
+int db_file; //global variance of db_file
 
 // Open existing database file or create one if not existed.
 int file_open_database_file(const char* pathname); 
