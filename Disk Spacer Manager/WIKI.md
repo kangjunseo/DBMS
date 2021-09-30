@@ -1,5 +1,8 @@
 # Project2 - MileStone1  &nbsp;&nbsp; `DiskSpaceManager`
 
+Hello, I'm the developer of this project, `Kang Junseo(2020085014)`.  
+Actually, CSE is my double major but I feel exciting for this project! :)  Thanks always for your effort.
+<br/>  
 This wiki will provide the overall descriptions about my Disk Space Manager implementation, and also the unittests.
 
 ## Overall Descriptions
@@ -46,13 +49,14 @@ I implemented extra struct `header_page_t` to control header page more easily.
 
 <br/>
 
+### Global variables
+
 ``` Cpp
 header_page_t * header; //global variable of header
 
 int db_file; //global variable of db_file
 int current_file_size;
 ```
-### Global variables
 
 These are some global variables to make my implement more easier.  
 <br/>
