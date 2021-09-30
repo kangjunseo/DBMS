@@ -314,14 +314,13 @@ This code is the part of iterating the free page list.
 ```
 
 ### Result of Unit Test
-![스크린샷_2021-09-30_오후_10.31.59](uploads/f9c9ba7f5ed96fa16f230162b4c73515/스크린샷_2021-09-30_오후_10.31.59.png)
+<img width="1282" alt="스크린샷 2021-09-30 오후 10 27 37" src="https://user-images.githubusercontent.com/88201041/135468120-e5dc0569-b2c7-4ec5-8d2e-86b3ebf228a0.png">
 All of three tests are successed.  
 
 More information about test log is in the picture below.  
 To get this log, I used "db_project/build/Testing/Temporary/"LastTest.log"".  
 <br/>
 
-<img width="1282" alt="스크린샷 2021-09-30 오후 10 27 37" src="https://user-images.githubusercontent.com/88201041/135468120-e5dc0569-b2c7-4ec5-8d2e-86b3ebf228a0.png">
 <img width="1264" alt="스크린샷 2021-09-30 오후 10 27 46" src="https://user-images.githubusercontent.com/88201041/135468152-72e8dcee-8f9a-4e36-a180-61dfe66080c2.png">
 <img width="669" alt="스크린샷 2021-09-30 오후 10 31 59" src="https://user-images.githubusercontent.com/88201041/135468158-81912b3e-a0c2-443e-a624-5b3156d8ff02.png">
 
