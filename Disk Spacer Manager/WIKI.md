@@ -303,6 +303,9 @@ This code is the part of iterating the free page list.
 
 ### `FileReadWriteTest`
 
+In this test, we allocate a new page, then write any 4096 bytes of value by calling `file_write_page()`.  
+After that, call `file_read_page()` and check if what is written is as same as what it read.  
+
 ``` Cpp
    page_t * src = new page_t;
    for(int i=0;i<PAGE_SIZE;i++){
@@ -316,6 +319,8 @@ This code is the part of iterating the free page list.
 
    EXPECT_EQ(memcmp(src,dest,PAGE_SIZE), 0);
 ```
+I used `memcmp()` to check if those two `page_t`s have same contents.  
+<br/>
 
 ### Result of Unit Test
 <img width="1282" alt="스크린샷 2021-09-30 오후 10 27 37" src="https://user-images.githubusercontent.com/88201041/135468120-e5dc0569-b2c7-4ec5-8d2e-86b3ebf228a0.png">
