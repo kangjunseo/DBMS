@@ -4,7 +4,7 @@
 #define FILE_SIZE (10 * 1024 * 1024)  // 10 MiB
 
 //globals
-extern int64_t db_files[20];
+extern int64_t db_files[19];
 extern int db_idx;
 
 // Open existing database file or create one if it doesn't exist
