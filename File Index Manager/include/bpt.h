@@ -5,6 +5,7 @@
 // #define WINDOWS
 #include <stdio.h>
 #include <stdlib.h>
+#include <iostream>
 #include <stdbool.h>
 #include <string.h>
 #include <algorithm> //used for std::sort
@@ -14,26 +15,6 @@
 #define false 0
 #define true 1
 #endif
-
-#define DEFAULT_ORDER 4
-
-typedef struct record {
-    int value;
-} record;
-
-
-typedef struct node {
-    void ** pointers;
-    int * keys;
-    struct node * parent;
-    bool is_leaf;
-    int num_keys;
-    struct node * next; // Used for queue.
-} node;
-
-// GLOBALS.
-extern int order;
-
 
 // FUNCTION PROTOTYPES.
 
@@ -51,7 +32,7 @@ slot_t * find( int64_t table_id, pagenum_t root, int64_t key );
 
 // Insertion.
 
-slot_t * make_slot(int key, uint16_t val_size);
+slot_t * make_slot(int64_t key, uint16_t val_size);
 pagenum_t make_node( int64_t table_id );
 pagenum_t make_leaf( int64_t table_id );
 void insert_into_leaf( int64_t table_id, pagenum_t leafnum, slot_t * pointer, char * value );
@@ -61,7 +42,7 @@ void insert_into_node(int64_t table_id, pagenum_t  parent,
 void insert_into_node_after_splitting(int64_t table_id, pagenum_t old_nodenum, int left_index, int64_t key, pagenum_t rightnum);
 void insert_into_parent(int64_t table_id, pagenum_t leftnum, int64_t key, pagenum_t rightnum);
 void insert_into_new_root(int64_t table_id, pagenum_t leftnum, int64_t key, pagenum_t rightnum);
-void start_new_tree(int64_t table_id, record * pointer,char * value);
+void start_new_tree(int64_t table_id, slot_t * pointer, char * value);
 
 // Deletion.
 
@@ -72,6 +53,6 @@ void adjust_root(int64_t table_id);
 void coalesce_nodes(int64_t table_id, pagenum_t n, pagenum_t neighbor,
                       int neighbor_index, int64_t k_prime);
 void redistribute_nodes(int64_t table_id, pagenum_t n, pagenum_t neighbor, int neighbor_index,int k_prime_index, int64_t k_prime);
-void delete_entry( int64_t table_id, node * n, int64_t key );
+void delete_entry( int64_t table_id, pagenum_t n, int64_t key );
 
 #endif /* __BPT_H__*/
