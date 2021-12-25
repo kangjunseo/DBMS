@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/liblock_table.a CMakeFiles/lock_table.dir/src/lock_table.cc.o
+/usr/bin/ranlib ../lib/liblock_table.a
