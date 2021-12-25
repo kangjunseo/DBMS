@@ -1,6 +1,0 @@
-/media/psf/Home/Desktop/project4/build/CMakeFiles/rebuild_cache.dir
-/media/psf/Home/Desktop/project4/build/CMakeFiles/test_lock_table.dir
-/media/psf/Home/Desktop/project4/build/CMakeFiles/edit_cache.dir
-/media/psf/Home/Desktop/project4/build/lock_table/CMakeFiles/rebuild_cache.dir
-/media/psf/Home/Desktop/project4/build/lock_table/CMakeFiles/lock_table.dir
-/media/psf/Home/Desktop/project4/build/lock_table/CMakeFiles/edit_cache.dir
