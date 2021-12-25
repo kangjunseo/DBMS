@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/media/psf/Home/Desktop/project4/build",
+  "command": "/usr/bin/c++  -I/media/psf/Home/Desktop/project4/build -I/media/psf/Home/Desktop/project4/lock_table/include -pthread -std=gnu++17 -o CMakeFiles/test_lock_table.dir/main.cc.o -c /media/psf/Home/Desktop/project4/main.cc",
+  "file": "/media/psf/Home/Desktop/project4/main.cc"
+},
+{
+  "directory": "/media/psf/Home/Desktop/project4/build/lock_table",
+  "command": "/usr/bin/c++  -I/media/psf/Home/Desktop/project4/lock_table/include -std=gnu++17 -o CMakeFiles/lock_table.dir/src/lock_table.cc.o -c /media/psf/Home/Desktop/project4/lock_table/src/lock_table.cc",
+  "file": "/media/psf/Home/Desktop/project4/lock_table/src/lock_table.cc"
+}
+]
