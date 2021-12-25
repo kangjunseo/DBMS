@@ -19,3 +19,17 @@ In Query SQL, put each sql query (e.g., `01.sql`,`17.sql`, ...).
 
 ## 2. Disk-based B+ Tree
 
+You can watch more information of my implementation in my Wiki in this repository.  
+
+[MileStone 1 - "DiskSpaceManager"](https://github.com/kangjunseo/DBMS/wiki/Project2---MileStone1)  
+
+[MileStone 2 - "FileIndexManager"](https://github.com/kangjunseo/DBMS/wiki/Project2---MileStone2)
+
+## 3. Buffer Manager
+
+[Buffer Manager](https://github.com/kangjunseo/DBMS/wiki/Project3)
+
+## 4. Lock Table
+
+[Lock Table](https://github.com/kangjunseo/DBMS/wiki/Project4)
+
